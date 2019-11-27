@@ -1,0 +1,42 @@
+.Main-footer{
+    height: 200px;
+    background-color: rgba(0, 128, 0, 0.9);
+}
+.Container{
+    display: flex;
+    align-items: center;
+}
+
+.Footer-nav ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.Footer-nav{
+    padding-top: 30px;
+}
+
+.Footer-nav li{
+   padding: 5px;
+}
+
+.Footer-nav a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+.Footer-nav a:hover {
+   color: greenyellow;
+}
+.Logo{
+   width: 47.5%;
+}
+.Logo a{
+   color: white;
+   text-decoration: none;
+   font-size: 30px;
+}
+.Copyright p{
+    margin: auto;
+   color: white;
+}
