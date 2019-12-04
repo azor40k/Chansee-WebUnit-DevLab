@@ -1,0 +1,68 @@
+.Toolbar{
+    /* position: fixed; */
+    width: 100%;
+    background: green;
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+
+.Toolbar_navigation{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 100px;
+
+}
+
+.Toolbar_logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.Toolbar_navigation-items{
+    margin-left: 350px;
+}
+
+.Toolbar_navigation-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Toolbar_navigation-items li{
+    padding: 0 7px;
+}
+
+.Toolbar_navigation-items a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Toolbar_navigation-items a:hover{
+    color: greenyellow;
+}
+
+.Toolbar_login ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Toolbar_login a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Toolbar_login li{
+    padding: 0 2px;
+}

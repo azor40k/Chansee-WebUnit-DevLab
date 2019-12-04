@@ -1,0 +1,11 @@
+.Banner-regle{
+margin: auto;
+height: 80vh;
+background: rgb(219, 176, 55);
+}
+
+.Banner-regle h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
