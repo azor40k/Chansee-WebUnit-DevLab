@@ -1,0 +1,16 @@
+.Banner-regle {
+    display: flex;
+    margin: auto;
+    height: 65vh;
+    background: url(../pics/rules.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Banner-regle h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 5em;
+}

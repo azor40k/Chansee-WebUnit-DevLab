@@ -1,0 +1,250 @@
+/* Slideshow */
+
+.Slider {
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Slider i {
+    font-size: 25px;
+}
+
+.Slide {
+    min-width: 100%;
+    height: 100%;
+    transition: .5s;
+    overflow: hidden;
+
+}
+
+#goLeft {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+#goLeft:hover {
+    background: rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+}
+
+#goRight {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+#goRight:hover {
+    background: rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+}
+
+/* Navigation */
+
+.Toolbar {
+    width: 100%;
+    background: rgba(0, 128, 0, 0.9);
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+
+.Toolbar_navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 100px;
+
+}
+
+.Toolbar_logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.Toolbar_navigation-items {
+    margin-left: 350px;
+}
+
+.Toolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Toolbar_navigation-items li {
+    padding: 0 7px;
+}
+
+.Toolbar_navigation-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Toolbar_navigation-items a:hover {
+    color: greenyellow;
+}
+
+.Toolbar_login ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Toolbar_login a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Toolbar_login li {
+    padding: 0 2px;
+}
+
+
+/* Content */
+
+.Presentation-app {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Text-one {
+    width: 33%;
+}
+
+.Img-app {
+    width: 33%;
+}
+
+.Text-two {
+    width: 33%;
+    margin-top: 15%;
+}
+
+.Btn-download {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    margin-top: 35%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.Btn-download a {
+    text-decoration: none;
+    color: black;
+}
+
+.Btn-download:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+/* FeedBack */
+
+.Feedback-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Fb-title {
+    height: 150px;
+}
+
+.Feeback-user {
+    width: 55%;
+}
+
+.Name{
+    width: auto;
+}
+
+.Feeback-user p {
+    height: auto;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.Feedback-content .User-icon {
+    width: 120px;
+}
+ /* Footer */
+
+ .Main-footer{
+     height: 200px;
+     background-color: rgba(0, 128, 0, 0.9);
+ }
+ .Container{
+     display: flex;
+     align-items: center;
+ }
+
+ .Footer-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ .Footer-nav{
+     padding-top: 30px;
+ }
+
+ .Footer-nav li{
+    padding: 5px;
+}
+
+ .Footer-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+ }
+ .Footer-nav a:hover {
+    color: greenyellow;
+}
+.Logo{
+    width: 47.5%;
+}
+.Logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.Copyright p{
+    color: white;
+}

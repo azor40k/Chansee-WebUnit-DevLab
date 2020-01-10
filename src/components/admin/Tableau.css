@@ -1,0 +1,56 @@
+.tdb-main, .tdb-membre-all{
+    height: 92.59vh;
+    display: flex;
+}
+
+.tdb-membre-all{
+    display: none;
+}
+
+.menu{
+    width: 15%;
+    height: 92.59vh;
+}
+
+.tdb-container{
+    width: 85%;
+    background: rgb(212, 212, 212);
+    height: 92.59vh;
+}
+
+.tdb-container-title{
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.tdb-box{
+    height: 80vh;
+    display: flex;
+}
+
+.tdb-content, .tdb-content-membre-main{
+    margin: auto;
+    width: 50%;
+    height: 80%;
+    background: chartreuse;
+}
+
+.tdb-content-title, .tdb-content-membre{
+    padding-left: 50px;
+    font-size: 2em;
+}
+
+.tdb-block{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background: rgb(183, 0, 255);
+}
+
+.tdb-content-membre-main{
+
+    width: 85%;
+
+}

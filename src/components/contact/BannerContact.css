@@ -1,0 +1,11 @@
+.BannerContact{
+    margin: auto;
+    height: 80vh;
+    width: 100%;
+    }
+    
+    .BannerContact h1{
+        color: white;
+        margin: auto;
+        text-align: center;
+    }
